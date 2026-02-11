@@ -11,7 +11,9 @@ Usage: ./cropfit <template_image> <source_image> <output_image>
 ## Compiling
 - Ensure you have OpenCV installed
 
-`g++ -O2 -std=c++17 main.cpp -o sift_crop \`pkg-config --cflags --libs --static opencv4\``
+```
+g++ -O2 -std=c++17 main.cpp -o sift_crop `pkg-config --cflags --libs --static opencv4`
+```
 
 ## So how does it work?
 TODO.
