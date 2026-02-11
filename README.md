@@ -12,10 +12,12 @@ Usage: ./cropfit <template_image> <source_image> <output_image>
 - Ensure you have OpenCV installed
 
 ```
-g++ -O2 -std=c++17 main.cpp -o sift_crop `pkg-config --cflags --libs --static opencv4`
+g++ -O2 -std=c++17 main.cpp -o cropfit `pkg-config --cflags --libs --static opencv4`
 ```
 
 ## So how does it work?
 TODO.
+
 I have no idea. SIFT is a crazy algorithm
+
 Too much complicated math D:
